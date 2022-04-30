@@ -1,0 +1,245 @@
+body{
+    margin: 1.5em;
+    font-family: Poppins;
+    background : url(https://wallpapercave.com/wp/wp2757874.gif);
+    margin-bottom: 2cm;
+}
+
+
+
+
+
+body {
+		font-size: 16px;
+}
+	
+h1,.Title,.desc,.cloud,.subhead,.intro,.endimg,.End {
+		text-align: center;
+    }
+    
+    a { color: inherit;
+        text-decoration:none;} 
+
+.wrapper{
+    text-align: center;
+}
+.quote{
+    position: relative;
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: small;
+    top:-2.5cm;
+    left:0cm;
+}
+.Name{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    z-index: -1;
+    text-decoration: none;
+    animation: introLoads 1s forwards;
+    animation-delay: 1s;
+    line-height: 1em;
+    animation-duration: 1s;
+    
+}
+
+.Avatar{
+    position: relative;
+    border-radius: 82%;
+    height: 5.2em;
+    top: 0.8cm;
+    left : 0.2cm;
+    text-align: center;
+      
+}
+
+.intro{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    top:0.8cm;
+}
+
+.fadeInLeft{
+    -webkit-animation: fadeInLeft 1.2s both;
+    -moz-animation: fadeInLeft 1.2s both;
+    -o-animation: fadeInLeft 1.2s both;
+    animation: fadeInLeft 1.2s both;
+}
+
+@-webkit-keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+    }
+    100%{
+        opacity:1;
+        -webkit-transform: translateX(0);
+    }
+}
+@-moz-keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        -moz-transform: translateX(-50px);
+    }
+    100%{
+        opacity:1;
+        -moz-transform: translateX(0);
+    }
+}
+@-o-keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        -o-transform: translateX(-50px);
+    }
+    100%{
+        opacity:1;
+        -o-transform: translateX(0);
+    }
+}
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+
+
+.animated{
+    background-position: centre;
+}
+h1{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    top:0.9cm;
+}
+
+.subhead{
+    position:relative;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    top:1cm;
+}
+
+.Form{
+    position: relative;
+    color:white;
+    height:200px; 
+    font-size:14pt;
+    text-align: center;
+    top: 3cm;
+}
+
+.form-control{
+    position: relative;
+    top: 0.4cm;
+}
+
+.firstname,.lastname,.email,.birthday{
+    font-family: Poppins;
+    font-size: 4rem;
+}
+
+h3{
+    position: relative;
+    font-family: Poppins;
+    font-size: 2.1rem;
+    font-weight: bold;
+    top: -0.1cm;
+}
+p{
+    position: relative;
+    top:0.9cm;
+}
+.cloud{
+    position: relative;
+    text-align:center;
+    height: 5em;
+    left: 3.3cm;
+    top: 1cm;
+}
+
+.Title{
+    position: relative;
+    font-family: Poppins;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    top:2cm;
+
+}
+
+.desc{
+    position: relative;
+    color: white;
+    font-size: medium;
+    font-weight: lighter;
+    top: 1.7cm;
+}
+
+.End{
+    position: relative;
+    color: white;
+    font-weight: bold;
+    text-align: centre;
+    bottom:-14cm;
+}
+
+.endimg{
+    position: relative;;
+    border-radius: 82%;
+    height: 5.2em;
+    top: 0.2cm;
+    
+      
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+@keyframes introLoad{
+    from{
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    to{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+@keyframes movecloud {
+    from {
+        transform: translateY(-30px)
+    }
+    to {
+        transform: translateY(0)
+    }
+}
+@keyframes movecloud {
+    from {
+        transform: translateY(-100px)
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

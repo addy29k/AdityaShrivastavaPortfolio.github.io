@@ -1,0 +1,33 @@
+body{
+    margin: 1.5em;
+    font-family: Poppins;
+    background : url(https://wallpapercave.com/wp/wp2757874.gif);
+    margin-bottom: 2cm;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+h1{
+    position: relative;
+    font-family: Poppins;
+    color: white;
+    top: 5cm;
+}
+
+p{
+    position: relative;
+    font-family: Poppins;
+    color: white;
+    color: white;
+    top: 5.2cm;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+.endd{
+    text-align: center;
+}
